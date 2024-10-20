@@ -1,0 +1,68 @@
+#main-form {
+
+    font-family: 'Arial', sans-serif;
+    background-image: url('/img/backgroundphoto.jpg');
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+    margin: 0;
+    padding: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.button-container {
+    background-color: #464343;
+    border-radius: 12px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+    padding: 90px;
+    width: 550px;
+    text-align: center;
+}
+
+#index-title {
+    font-size: 1.8rem;
+    color: #dee3e7;
+    margin-bottom: 25px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+button {
+    width: 100%;
+    padding: 15px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    font-size: 1rem;
+    cursor: pointer;
+    border-radius: 8px;
+    margin-top: 15px;
+    transition: background-color 0.3s, transform 0.3s;
+    text-transform: uppercase;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+button:hover {
+    background-color: #0056b3;
+    transform: translateY(-3px);
+}
+#btnaddstudent{
+    background-color: #e84118;
+}
+#btnaddstudent:hover{
+    background-color: #4cd137;
+}
+#btnupdatestudent:hover{
+    background-color: #FFC312;
+}
+#btndeletestudent{
+    background-color: #e84118;
+}
+#btndeletestudent:hover{
+    background-color: #4cd137;
+}
+#btnsearchstudent:hover{
+    background-color: #FFC312;
+}
